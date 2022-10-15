@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Grid Margin="20,0,20,0" VerticalOptions="CenterAndExpand">
+                <Grid Margin="20,0,20,0" RowSpacing="20" VerticalOptions="CenterAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
@@ -27,7 +27,7 @@
                         <Entry Placeholder="PhoneNamber" FontSize="16" x:Name="EntryUserPhoneNamber"></Entry>
                     </StackLayout>
                     <StackLayout Grid.Row="4">
-                        <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="100" BackgroundColor="Blue" TextColor="White" Clicked="Handel_Clicked"></Button>
+                        <Button Text="Register" WidthRequest="100" BackgroundColor="Blue" TextColor="White" Clicked="Handel_Clicked"></Button>
                     </StackLayout>
                 </Grid>
             </StackLayout>

@@ -17,6 +17,8 @@ namespace XamarinGeigerDosimeter.Views
     {
         public LoginPage()
         {
+            SetValue(NavigationPage.HasNavigationBarProperty, false);
+
             InitializeComponent();
         }
 

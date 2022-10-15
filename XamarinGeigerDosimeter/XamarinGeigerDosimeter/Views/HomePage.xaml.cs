@@ -14,12 +14,14 @@ namespace XamarinGeigerDosimeter.Views
     {
         public HomePage()
         {
+            SetValue(NavigationPage.HasNavigationBarProperty, false);
+
             InitializeComponent();
         }
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushAsync(new NavigationPage(new LoginPage()));
         }
     }
 }
