@@ -11,7 +11,7 @@ namespace XamarinGeigerDosimeter
         {
             InitializeComponent();
 
-            MainPage = new RegistrationPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
