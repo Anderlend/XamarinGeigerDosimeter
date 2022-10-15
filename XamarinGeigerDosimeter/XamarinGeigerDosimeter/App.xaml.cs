@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinGeigerDosimeter.Views;
 
 namespace XamarinGeigerDosimeter
 {
@@ -10,7 +11,7 @@ namespace XamarinGeigerDosimeter
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new RegistrationPage();
         }
 
         protected override void OnStart()
