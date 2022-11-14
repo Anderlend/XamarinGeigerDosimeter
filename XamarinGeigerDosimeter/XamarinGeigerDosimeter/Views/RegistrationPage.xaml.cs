@@ -33,7 +33,7 @@ namespace XamarinGeigerDosimeter.Views
             db.Insert(item);
             Device.BeginInvokeOnMainThread(async () =>
             {
-                var result = await this.DisplayAlert("Congratulation", "User registration Successful", "Yes", "Cansel");
+                var result = await this.DisplayAlert("Congratulations", dbPath, "Yes", "Cansel");
 
                 if (result)
                 {
